@@ -1,0 +1,6 @@
+.vscode
+node_modules
+*~
+.eslintrc.js
+debug.js
+fixed.js

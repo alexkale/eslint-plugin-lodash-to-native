@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-lodash-to-native",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/lib",
+    "run": "node debug.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkale/eslint-plugin-lodash-to-native.git"
+  },
+  "author": "Alex Kalentiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexkale/eslint-plugin-lodash-to-native/issues"
+  },
+  "homepage": "https://github.com/alexkale/eslint-plugin-lodash-to-native#readme"
+}
