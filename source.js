@@ -3,6 +3,13 @@ const x = [1, 2, 3];
 // Should not be fixed
 var a = x.map(v => v * 2);
 
+let varb;
+if (Array.isArray(y)) {
+  varb = y.map(cb);
+} else {
+  varb = _.map(y, cb);
+}
+
 // Should be fixed
 var test = _.map([1,2,3], v => v * 3);
 
