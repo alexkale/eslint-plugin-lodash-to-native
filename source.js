@@ -22,3 +22,7 @@ var test4 = _.map([{a: 'b'}, {c: 'd'}], () => {});
 function doit(x, cb) {
   return _.map(x, cb);
 }
+
+var test5 = _.map(new Array(5), () => {});
+
+var test6 = _.map(Array.from([1,2,3]), () => {});
