@@ -29,15 +29,15 @@ ruleTester.run('lodash-to-native/map', rules.map, {
       code: 'var a = _.map(obj, cb)',
       errors: [{ message: 'Use native Array.map implementation instead of lodash version if argument is array' }],
       output: `var a = Array.isArray(obj) ?
-          obj.map(cb) :
-          _.map(obj, cb)`,
+        obj.map(cb) :
+        _.map(obj, cb)`,
     },
     {
       code: 'var a = _.map(getItems(), v => v.toString())',
       errors: [{ message: 'Use native Array.map implementation instead of lodash version if argument is array' }],
       output: `var a = (val => Array.isArray(val) ?
-          val.map(v => v.toString()) :
-          _.map(val, v => v.toString()))(getItems())`,
+        val.map(v => v.toString()) :
+        _.map(val, v => v.toString()))(getItems())`,
     },
   ],
 });
