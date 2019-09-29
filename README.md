@@ -1,5 +1,5 @@
 # eslint-plugin-lodash-to-native
-Плагин для ESLint, отслеживающий использование lodash.map
+Плагин для ESLint, отслеживающий использование функции map из библиотеки lodash
 
 ## Использование
 1. Установить пакет: ```npm install https://github.com/alexkale/eslint-plugin-lodash-to-native.git```  
