@@ -2,8 +2,8 @@
 Плагин для ESLint, отслеживающий использование lodash.map
 
 ## Использование
-Установить пакет: ```npm install -S github.com/alexkale/eslint-plugin-lodash-to-native.git```  
-**.eslintrc.js**:
+1. Установить пакет: ```npm install -S github.com/alexkale/eslint-plugin-lodash-to-native.git```  
+2. **.eslintrc.js**:  
 ```js
 "plugins": [
     "lodash-to-native"
@@ -12,6 +12,7 @@
     "lodash-to-native/map": "warn"
 },
 ```
+3. Тесты: ```npm run test```
 
 ## Возможности
 1. Фикс правила добавляет проверку аргумента на массив и вызывает нативную реализацию Array.map

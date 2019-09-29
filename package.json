@@ -11,8 +11,7 @@
     "mocha": "^6.2.0"
   },
   "scripts": {
-    "test": "mocha tests/lib",
-    "run": "node debug.js"
+    "test": "mocha tests/lib"
   },
   "repository": {
     "type": "git",
