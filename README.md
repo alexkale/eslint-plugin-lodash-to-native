@@ -4,12 +4,14 @@
 ## Использование
 1. Установить пакет: ```npm install https://github.com/alexkale/eslint-plugin-lodash-to-native.git```  
 2. При необходимости, установить eslint (```npm i -D eslint```)
-2. **.eslintrc.js**:  
+2. Добавить плагин и правило в **.eslintrc.js **:
 ```js
 "plugins": [
+    ...,
     "lodash-to-native"
   ],
   "rules": {
+    ...,
     "lodash-to-native/map": "warn"
 },
 ```
